@@ -3,7 +3,7 @@
 GIT is a __version control system *(VCS)*__ for tracking change to projects.\
 Version control systems are also called __revision control systems__ or __source code management systems (SCM)__.\
 GIT is also useful for teamwork.\
-GIT is simply a __bookkeeping butler__.\
+GIT is simply a __bookkeeping butler__.
 ### **_GITHUB_**
 GITHUB allows developer to host their file in __GIT REPOSITRY__ so that other pepole can collaborate on projects with them.\
 GITHUB is an open source programme.\
