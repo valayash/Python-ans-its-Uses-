@@ -9,4 +9,4 @@ GITHUB allows developer to host their file in __GIT REPOSITRY__ so that other pe
 GITHUB is an open source programme.\
 Simply we can say that __*GITHUB is a GUI for GIT*__.\
 \
-![Alt Text](https://www.coredna.com/files/images/blogs/71/810/What-is-Git-Infographic.webp?w=831&h=3498&f=png)\
+![Alt Text](https://www.coredna.com/files/images/blogs/71/810/What-is-Git-Infographic.webp?w=831&h=3498&f=png)
