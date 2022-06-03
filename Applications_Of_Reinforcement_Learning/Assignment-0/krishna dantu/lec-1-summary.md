@@ -4,7 +4,7 @@
 - It is a version control system which tracks the changes in a file and helps in coordinating with multiple people. it can be used for any kind of file
 and it fits the need of software development of tracking multiple changes in the project's code.
 - It is based on tree model graphs (merkle tree),mostly written in c for its speed and portability.
-- It is a shell comand line based system which requires us to remember the various commands. There are nnumerous commands and users are required to 
+- It is a shell comand line based system which requires us to remember the various commands. There are numerous commands and users are required to 
 memorise them based on their usage.
 - **fun fact** The name git isn't defined properly and has many different meanings. The source code documentation reads -> "git" can mean anything, depending on your mood.
       
