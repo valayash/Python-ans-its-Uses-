@@ -1,0 +1,14 @@
+Git is a version control system. It helps the user in maintaining various versions of a project.
+Repository
+A repository represents a piece of work that you want Git to maintain for you. 
+On a computer, this “piece of work” refers to a single directory — 
+so if you’re writing a novel and you want to use Git, you’d create a folder for the novel, 
+keep your work inside that folder and tell Git to keep track of this folder.
+Commit
+A commit is the unit of change in Git. So when you “commit” your changes to Git, 
+you’re basically saying “here Git, I made these changes to the piece of work, have a look” and Git remembers it.
+git init is used to tell git to start keeping the record, executing this command will create a .git file.
+git add <file to be added> is used to stage the changes.
+git commit -m <message> is like creating a checkpoint.
+git push pushes the files into the github repository.
+
