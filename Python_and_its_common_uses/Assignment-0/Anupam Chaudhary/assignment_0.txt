@@ -6,4 +6,4 @@ people,in order to increase the quality of your work(project).
 4.It updates the changes,recorded in a code.
 Github
 1.Github is a online platform which uses git repositries and allows different people to collab togehter on a same project.
-2.Github has different features like branhes commits and pul requests.
+2.Github has different features like branhes commits and pull requests.
