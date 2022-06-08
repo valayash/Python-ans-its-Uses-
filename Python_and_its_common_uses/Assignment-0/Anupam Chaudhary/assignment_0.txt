@@ -1,0 +1,8 @@
+Git
+1.Git is a version contol system whch stores different versions of a project.
+2.It is very similar to a butler maintaining your data while writing a new book.
+3.It provides a platform to merge the same work from different people,in order to increase the quality of your work(project).
+4.It updates the changes,recorded in a code.
+Github
+1.Github is a online platform which uses git repositries and allows different people to collab togehter on a same project.
+2.Github has different features like branches commits and pull requests.
