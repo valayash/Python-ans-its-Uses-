@@ -1,15 +1,15 @@
 import time
 import numpy as np
-mx1 =np.random.rand(3, 3)
-mx2=np.random.rand(3, 3)
+import random
+r1 = random.randint(1, 10)
+mx1 =np.random.rand(r1, r1)
+mx2=np.random.rand(r1, r1)
 print(mx1) 
 print(mx2)
-mx3 = [[0,0,0],
-        [0,0,0],
-        [0,0,0]]
+mx3 = np.zeros((r1,r1))
 #addition
-for i in range(0,3):
-     for j in range(0,3):
+for i in range(0,r1):
+     for j in range(0,r1):
          mx3[i][j]=mx1[i][j]+mx2[i][j]
 
 for r in mx3:
@@ -20,23 +20,19 @@ print(time.time())
 #using numpy
 import numpy as geek
 print(geek.add(mx1,mx2))
-mx3 = [[0,0,0],
-        [0,0,0],
-        [0,0,0]]
+mx3 = np.zeros((r1,r1))
 
 print(time.time())
 #multiplication
-for i in range(0,3):
-     for j in range(0,3):
-         for k in range (0,3):
+for i in range(0,r1):
+     for j in range(0,r1):
+         for k in range (0,r1):
            mx3[i][j] += mx1[i][k] * mx2[k][j]
 
 print(mx3)
 
 print(time.time())
-mx3 = [[0,0,0],
-        [0,0,0],
-        [0,0,0]]
+mx3 = np.zeros((r1,r1))
 #using numpy
 import numpy as np
 mx3=np.dot(mx1,mx2)
