@@ -1,8 +1,9 @@
 import numpy as np 
 import time
-A = np.random.randint(10, size = (3,3)) #Random Matrix of size 3X3
+n = int(input('Value of n is: '))
+A = np.random.randint(2*n+1, size = (n, n)) #Random Matrix of size 3X3
 print ('Matrix A: \n', A)
-B = np.random.randint(10, size = (3,3)) #Random Matrix of size 3X3
+B = np.random.randint(2*n+1, size = (n, n)) #Random Matrix of size 3X3
 print ('Matrix B: \n', B)
 print()
 
