@@ -8,3 +8,5 @@ And then you can check your result by comparing to the values calculated by usin
 3. You can give a matrix as input, but I would suggest you to generate the matrix using random function.
 
 #### Complete it and submit before 11:59 PM on Saturday night.
+
+## [Solution 1.A :](https://github.com/sandeepb20/Project2022/tree/main/Python_and_its_common_uses/Assignment-1/200856_Sandeep/assignment1A)
