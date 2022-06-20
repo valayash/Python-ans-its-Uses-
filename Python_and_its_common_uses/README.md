@@ -13,7 +13,7 @@
 ```
 Project2022
   └── Python_and_its_common_uses
-    ├── Assignment_0
+    ├── Assignment-0
     |    ├── 212101_John
     |    |      ├── solution(file or folder)
     |    |      └── README.md (description about your submission)
@@ -25,7 +25,7 @@ Project2022
     |    └── 212105_xyz
     |           ├── solution(file or folder)
     |           └── README.md (description about your submission)
-    └── Assignment_1
+    └── Assignment-1
          ├── 212101_John
          |      ├── solution(file or folder)
          |      └── README.md (description about your submission)
