@@ -11,3 +11,5 @@
     - enginesize    - 183
     - stroke    - 3.64
     - horsepower - 123
+- Added a raw code of all functions and methods in source code.py
+- Checked the accuracy of model using library functions of sklearn(only checked the accuracy). 
