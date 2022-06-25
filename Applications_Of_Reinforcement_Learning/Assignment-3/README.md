@@ -7,7 +7,7 @@
 
 #### Task 2:
 
-- Arpit was 20 years old when the tragedy happened. He boarded the ship with no family or spouse and paid 7.5 British pounds for his ticket.Shreya nigwal was 19 years old on the tragic day. She boarded the ship with her fiance (treat this as a spouse) and her mother. She paid 512 British pounds for her ticket. What are the estimated probabilities of survival for Kumar Arpit and Shreya Nigwal as per the model you have trained above?
+- `Ghooster`(Arpit) was 20 years old when the tragedy happened. He boarded the ship with no family or spouse and paid 7.5 British pounds for his ticket.`Shreya nigwal` was 19 years old on the tragic day. She boarded the ship with her fiance (treat this as a spouse) and her mother. She paid 512 British pounds for her ticket. What are the estimated probabilities of survival for Kumar Arpit and Shreya Nigwal as per the model you have trained above?
 
 #### Information about data sets:
 
