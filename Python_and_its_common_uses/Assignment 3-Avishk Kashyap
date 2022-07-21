@@ -1,0 +1,45 @@
+<head>
+<h1>SECRETARY FORM </h1>
+</head>
+<body>
+  <h3>Enter your name</h3>
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+  </form>
+
+  </form>
+  <h3> Which fest do you want to work for?</h3>
+  <label for="fest"></label>
+
+  <select name="fest" id="fest">
+  <option value="Antaragni">Antaragni</option>
+  <option value="Techkriti">Techkriti</option>
+  <option value="Udghosh">Udghosh</option>
+  </select>
+
+  <h3> Select Vertical</h3>
+  <label for="post"></label>
+  <select name="post" id="post">
+  <option value="Hospitality and Transport">Hospitality and Transport</option>
+  <option value="Marketing">Marketing</option>
+  <option value="Media and Publicity">Media and Publicity</option>
+  <option value="Public Relations">Public Relations</option>
+  </select>
+  <h3>Mission</h3>
+  <form>
+    <label for="fname"></label><br>
+    <input type="text" id="fname" name="fname"><br>
+  <h3>Vision</h3>
+    <form>
+      <label for="fname"></label><br>
+      <input type="text" id="fname" name="fname"><br>
+
+      <form action="/action_page.php" method="get" id="form1">
+        
+        </form>
+        
+        <button type="submit" form="form1" value="Submit">Submit</button>
+</body>
