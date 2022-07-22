@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    form {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  </style>
+</head>
+<html>
+  <body>
+    <h1 style="font-size: 300%">Employee Interest Survey Form</h1>
+    <form>
+      <label for="eyn">Enter your name:</label>
+      <input type="text" id="eyn" name="eyn" /><br /><br />
+      <label for="eyd">Enter your department:</label>
+      <input type="'text" id="eyd" department="eyd" /><br /><br />
+    </form>
+    <form>
+      <label for="ay">Tell us about yourself:</label><br />
+      <textarea name="message" rows="10" cols="30"></textarea>
+      <br /><br />
+    </form>
+
+    <form>
+      <p>Do you exercise at home?</p>
+      <input type="radio" id="yes" name="exercise" value="Yes" />
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="exercise" value="No" />
+      <label for="no">No</label>
+    </form>
+    <p>How do you like to read about your favourite topics?</p>
+    <form>
+      <input type="checkbox" id="fav_topic1" name="fav_topic1" value="Books" />
+      <label for="fav_topic">Books</label>
+      <input
+        type="checkbox"
+        id="fav_topic2"
+        name="fav_topic2"
+        value="Online Resources"
+      />
+      <label for="fav_topic">Online Resources</label>
+      <input
+        type="checkbox"
+        id="fav_topic3"
+        name="fav_topic3"
+        value="Phone Apps"
+      />
+      <label for="fav_topic">Phone Apps</label>
+      <input
+        type="checkbox"
+        id="fav_topic4"
+        name="fav_topic4"
+        value="Magazines"
+      />
+      <label for="fav_topic4">Magazines</label> <br /><br />
+    </form>
+    <form>
+      <label for="movies">What genre of movies do you like?</label>
+      <select id="movies" name="movies">
+        <option value="action">action</option>
+        <option value="thriller">thriller</option>
+        <option value="comedy">comedy</option>
+        <option value="science fiction">science fiction</option></select
+      ><br /><br />
+    </form>
+    <form>
+      <input type="submit" value="Submit form" />
+    </form>
+  </body>
+</html>
