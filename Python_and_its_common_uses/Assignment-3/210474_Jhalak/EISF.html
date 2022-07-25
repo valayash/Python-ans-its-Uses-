@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {text-align:center}
+        form {text-align:center}
+    </style>
+</head>
+<body>
+    <h1>Employee Interests Survey form</h1>
+    <form>
+        <label for = "fullname" >Enter your name:</label>
+        <input type = "text", id = "fullname"><br>
+        <br>
+        <label for = "department">Enter your department:</label>
+        <input type = "text", id = "department"><br>
+        <br>
+        <label for = "about">Tell us a little about yourself:</label>
+        <textarea id = "about", name = "about", rows = "4", cols = "50"></textarea>
+        <p>Do you exercise at home?
+        <input type = "radio", id = "yes", name = "exercise">
+        <label for = "yes">Yes</label>
+        <input type = "radio", id = "no", name = "exercise">
+        <label for = "no">No</label>
+        </p>
+        <p>How do you like to read about your favorite topics?</p>
+        <input type = "checkbox", id = "books", name = "favorite">
+        <label for = "books">Books</label>
+        <input type = "checkbox", id = "OR", name = "favorite">
+        <label for = "OR">Online Resources</label>
+        <input type = "checkbox", id = "PA", name = "favorite">
+        <label for = "PA">Phone apps</label>
+        <input type = "checkbox", id = "magazines", name = "favorite">
+        <label for = "magazines">Magazines</label><br>
+        <br>
+        <label for = "genre">What genre of movies do you like?</label>
+        <select>
+            <option value = "comedy">Comedy</option>
+            <option value = "horror">Horror</option>
+            <option value = "romance">Romance</option>
+            <option value = "thriller">Thriller</option>
+            <option value = "action">Action</option>
+        </select><br><br>
+
+        <input type = "submit", value = "Submit form">
+    </form>
+</body>
+</html>
