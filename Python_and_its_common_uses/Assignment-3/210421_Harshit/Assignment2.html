@@ -1,0 +1,70 @@
+<!-- Harshit Chaudhary 21021 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<style>
+    h1 {text-align: center;}
+    form {text-align: center;}
+    label {text-align: center;}
+    input {text-align: center;}
+    textarea {text-align: center;}
+    p {text-align: center;}
+</style>
+<body>
+    <h1 align="center">Employee Interests Survey Form</h1>
+    <form>
+        <label for="fname">Enter your name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="department">Enter your department:</label>
+        <input type="text" id="department" name="department"><br><br>
+        <label for="about">Tell us a little about yourself:</label>
+        <textarea rows = "5" cols = "30" name = "about">
+        </textarea><br>
+    </form>
+    <br>
+    <!-- <p>Do you exercise at home? </p> -->
+    <form>
+        <label for="exe">Do you exercise at home?</label>
+        <input type="radio" id="Yes" name="Exercise" value="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name="Exercise" value="No">
+        <label for="No">No</label>
+    </form>
+    <br>
+    <form>
+        <label for="read">How do you read about your favourite topics?</label><br>
+        <br>
+        <input type="checkbox" id="res1" name="res1" value="Books">
+        <label for="res1">Books</label>
+        <input type="checkbox" id="res2" name="res2" value="Online Resources">
+        <label for="res2">Online resources</label>
+        <input type="checkbox" id="res3" name="res3" value="Phone apps">
+        <label for="res3">Phone apps</label>
+        <input type="checkbox" id="res4" name="res4" value="Magazines">
+        <label for="res4">Magazines</label>
+    </form>
+    <br>
+    <form>
+        <label for="mov">What genre of movies do you like?</label>
+        <select id="mov" name="mov">
+            <option value="comedy">comedy</option>
+            <option value="action">action</option>
+            <option value="drama">drama</option>
+            <option value="fantasy">fantasy</option>
+            <option value="horror">horror</option>
+            <option value="mystery">mystery</option>
+            <option value="romance">romance</option>
+            <option value="thriller">thriller</option>
+            <option value="western">western</option>
+        </select><br>
+        <br>
+        <input type="submit" value="Submit fom">
+    </form>
+
+</body>
+</html>
